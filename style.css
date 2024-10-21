@@ -200,16 +200,34 @@ footer {
   text-align: center;
   font-weight: lighter;
   font-size: 15px;
-  color: #a3a3a3a8;
+  color: #d6d6d65e;
+  background-color: rgba(26, 26, 26, 0.445);
 }
 
 .button {
   align-items: center;
   display: flex;
   justify-content: center;
+  padding: 5px;
 }
 
 #button1 {
-  background-color: gray;
+  background-color: rgba(42, 38, 38, 0.567);
+  border-radius: 5px;
   color: #c05f38;
+  text-shadow: #0000008d;
+  box-shadow: #000000b9;
+  font-family: "Gill Sans MT";
+  width: 14vw;
+  height: 7vh;
+}
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  #button1 {
+    max-width: 100%;
+    width: 150px;
+  }
 }
